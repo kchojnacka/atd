@@ -1,0 +1,156 @@
+﻿[
+  {
+    "p": {
+"start": {
+"identity": 208,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "DEN"
+        }
+      },
+"end": {
+"identity": 191,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "SEA"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 208,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "DEN"
+            }
+          },
+          "relationship": {
+"identity": 672,
+"start": 554,
+"end": 208,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 554,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"date": "11/29/2015 22:39:02",
+"duration": 101,
+"distance": 602,
+"airline": "19977"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 554,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"date": "11/29/2015 22:39:02",
+"duration": 101,
+"distance": 602,
+"airline": "19977"
+            }
+          },
+          "relationship": {
+"identity": 673,
+"start": 554,
+"end": 220,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 220,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "PHX"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 220,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "PHX"
+            }
+          },
+          "relationship": {
+"identity": 1777,
+"start": 1438,
+"end": 220,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1438,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"date": "11/24/2015 09:05:04",
+"duration": 145,
+"distance": 1107,
+"airline": "20304"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1438,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"date": "11/24/2015 09:05:04",
+"duration": 145,
+"distance": 1107,
+"airline": "20304"
+            }
+          },
+          "relationship": {
+"identity": 1778,
+"start": 1438,
+"end": 191,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 191,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "SEA"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    },
+    "price": null
+  }
+]
