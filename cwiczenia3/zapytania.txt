@@ -1,0 +1,24 @@
+Zad.1
+MATCH (movies:Movie) return movies
+
+Zad.2
+MATCH (person:Person {name: "Hugo Weaving"})-[:ACTED_IN]->(movie)
+RETURN person,movie
+
+Zad.3
+MATCH (person:Person {name: "Hugo Weaving"})-[:ACTED_IN]->(movie)<-[:DIRECTED]-(director) RETURN person,movie,director
+
+Zad.4
+MATCH (person:Person {name: "Hugo Weaving"})-[:ACTED_IN]->(movie)<-[:ACTED_IN]-(coworker:Person) RETURN person,movie,coworker
+
+Zad.5
+MATCH (person:Person)-[:ACTED_IN]->(movie:Movie {title: "The Matrix"}) RETURN person,movie
+
+Zad.6
+MATCH (movie:Movie)<-[:ACTED_IN]-(actors) RETURN actors as Actor, count (*) AS NumberOfMovies
+
+Zad.7
+MATCH (person:Person)<-[:WROTE]->(movie)<-[:DIRECTED]-(person:Person) RETURN person.name, movie
+
+Zad.8
+MATCH (person: Person {name: "Hugo Weaving"})-[:ACTED_IN]->(movies)<-[:ACTED_IN]-(person2: Person {name: "Keanu Reeves"}) RETURN movies
