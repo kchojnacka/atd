@@ -1,0 +1,13 @@
+C:\Users\Cat>curl -i -XGET http://localhost:8098/buckets/s23698/keys/3
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvndpD5eECCUy5rEySL8KuMWXBQA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s23698>; rel="up"
+Last-Modified: Wed, 30 Jun 2021 13:14:03 GMT
+ETag: "1jpc3Sq4ZWG7ogAJVWsiKh"
+Date: Wed, 30 Jun 2021 13:16:28 GMT
+Content-Type: application/json
+Content-Length: 85
+
+{'id': 3, 'name': 'Alban Kowalski', 'pesel': '88888812345', 'comesFromPoland': False}

@@ -1,0 +1,33 @@
+Zad.1
+curl -i -XPUT -H "Content-Type: application/json" -d "{'id': 1, 'name': 'Jan Testowy', 'pesel': '22222222222', 'comesFromPoland': True}"  http://localhost:8098/buckets/s23698/keys/1
+curl -i -XPUT -H "Content-Type: application/json" -d "{'id': 2, 'name': 'Janina Testowa', 'pesel': '12345678901', 'comesFromPoland': True}"  http://localhost:8098/buckets/s23698/keys/2
+curl -i -XPUT -H "Content-Type: application/json" -d "{'id': 3, 'name': 'Alban Kowalski', 'pesel': '88888812345', 'comesFromPoland': False}"  http://localhost:8098/buckets/s23698/keys/3
+curl -i -XPUT -H "Content-Type: application/json" -d "{'id': 4, 'name': 'Maria Pączek', 'pesel': '12121212121', 'comesFromPoland': True}"  http://localhost:8098/buckets/s23698/keys/4
+curl -i -XPUT -H "Content-Type: application/json" -d "{'id': 5, 'name': 'Błażej Spokojny', 'pesel': '22222222228', 'comesFromPoland': False}"  http://localhost:8098/buckets/s23698/keys/5
+
+Zad.2
+curl -i -XGET http://localhost:8098/buckets/s23698/keys/3
+
+Zad.3
+curl -i -XPUT -H "Content-Type: application/json" -d "{'id': 2, 'name': 'Janina Testowa', 'pesel': '12345678901', 'comesFromPoland': True, 'shoeSize': 38}"  http://localhost:8098/buckets/s23698/keys/2
+
+Zad.4
+curl -i -XPUT -H "Content-Type: application/json" -d "{'id': 4, 'name': 'Maria Pączek', 'comesFromPoland': True}"  http://localhost:8098/buckets/s23698/keys/4
+
+Zad.5
+curl -i -XPUT -H "Content-Type: application/json" -d "{'id': 1, 'name': 'Jan Testowy', 'pesel': '22222222222', 'comesFromPoland': False}"  http://localhost:8098/buckets/s23698/keys/1
+
+Zad.6
+curl -i -XDELETE http://localhost:8098/buckets/s23698/keys/5
+
+Zad.7
+curl -i -XGET http://localhost:8098/buckets/s23698/keys/13
+
+Zad.8
+curl -i -XPOST -H "Content-Type: application/json" -d "{'newField': 'additional'}" http://localhost:8098/buckets/s23698/keys/
+
+Zad.9
+curl -i -XGET http://localhost:8098/buckets/s23698/keys/a1Auli3XeEoYYdiQfjK2O607Yb4
+
+Zad.10
+curl -i -XDELETE http://localhost:8098/buckets/s23698/keys/a1Auli3XeEoYYdiQfjK2O607Yb4

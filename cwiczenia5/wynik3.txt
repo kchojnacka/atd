@@ -1,0 +1,7 @@
+C:\Users\Cat>curl -i -XPUT -H "Content-Type: application/json" -d "{'id': 2, 'name': 'Janina Testowa', 'pesel': '12345678901', 'comesFromPoland': True, 'shoeSize': 38}"  http://localhost:8098/buckets/s23698/keys/2
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Wed, 30 Jun 2021 13:19:06 GMT
+Content-Type: application/json
+Content-Length: 0

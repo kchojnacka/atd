@@ -1,0 +1,43 @@
+C:\Users\Cat>curl -i -XPUT -H "Content-Type: application/json" -d "{'id': 1, 'name': 'Jan Testowy', 'pesel': '22222222222', 'comesFromPoland': True}"  http://localhost:8098/buckets/s23698/keys/1
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Wed, 30 Jun 2021 13:14:02 GMT
+Content-Type: application/json
+Content-Length: 0
+
+
+C:\Users\Cat>curl -i -XPUT -H "Content-Type: application/json" -d "{'id': 2, 'name': 'Janina Testowa', 'pesel': '12345678901', 'comesFromPoland': True}"  http://localhost:8098/buckets/s23698/keys/2
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Wed, 30 Jun 2021 13:14:03 GMT
+Content-Type: application/json
+Content-Length: 0
+
+
+C:\Users\Cat>curl -i -XPUT -H "Content-Type: application/json" -d "{'id': 3, 'name': 'Alban Kowalski', 'pesel': '88888812345', 'comesFromPoland': False}"  http://localhost:8098/buckets/s23698/keys/3
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Wed, 30 Jun 2021 13:14:03 GMT
+Content-Type: application/json
+Content-Length: 0
+
+
+C:\Users\Cat>curl -i -XPUT -H "Content-Type: application/json" -d "{'id': 4, 'name': 'Maria Pączek', 'pesel': '12121212121', 'comesFromPoland': True}"  http://localhost:8098/buckets/s23698/keys/4
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Wed, 30 Jun 2021 13:14:03 GMT
+Content-Type: application/json
+Content-Length: 0
+
+
+C:\Users\Cat>curl -i -XPUT -H "Content-Type: application/json" -d "{'id': 5, 'name': 'Błażej Spokojny', 'pesel': '22222222228', 'comesFromPoland': False}"  http://localhost:8098/buckets/s23698/keys/5
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Wed, 30 Jun 2021 13:14:10 GMT
+Content-Type: application/json
+Content-Length: 0

@@ -1,0 +1,13 @@
+C:\Users\Cat>curl -i -XGET http://localhost:8098/buckets/s23698/keys/a1Auli3XeEoYYdiQfjK2O607Yb4
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvnfpcfgBEUpkzGNluPom4BZfFgA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s23698>; rel="up"
+Last-Modified: Wed, 30 Jun 2021 13:25:41 GMT
+ETag: "4b8MF2AyBH9q6dTd1tved6"
+Date: Wed, 30 Jun 2021 13:26:29 GMT
+Content-Type: application/json
+Content-Length: 26
+
+{'newField': 'additional'}

@@ -1,0 +1,9 @@
+C:\Users\Cat>curl -i -XPOST -H "Content-Type: application/json" -d "{'newField': 'additional'}" http://localhost:8098/buckets/s23698/keys/
+HTTP/1.1 201 Created
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Location: /buckets/s23698/keys/a1Auli3XeEoYYdiQfjK2O607Yb4
+Date: Wed, 30 Jun 2021 13:25:41 GMT
+Content-Type: application/json
+Content-Length: 0
+
